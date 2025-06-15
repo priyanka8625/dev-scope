@@ -1,7 +1,7 @@
 
 # 🧭 DevScope – HSSoC Contributor Dashboard
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/03ecfe7f-5d82-4bcb-8df9-5aa72d0414e5/deploy-status)](https://app.netlify.com/sites/dev-scope/deploys)
+[![View on Netlify](https://img.shields.io/badge/Live-Demo-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://dev-scope.netlify.app)
 [![GitHub Stars](https://img.shields.io/github/stars/HashSlap-Summer-of-Code/dev-scope?style=social)](https://github.com/HashSlap-Summer-of-Code/dev-scope/stargazers)
 [![HSSoC Badge](https://img.shields.io/badge/HSSoC-2025-green.svg?style=flat-square)](#)
 
