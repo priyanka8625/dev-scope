@@ -1,9 +1,17 @@
 
 # 🧭 DevScope – HSSoC Contributor Dashboard
 
-[![View on Netlify](https://img.shields.io/badge/Live-Demo-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://dev-scope.netlify.app)
-[![GitHub Stars](https://img.shields.io/github/stars/HashSlap-Summer-of-Code/dev-scope?style=social)](https://github.com/HashSlap-Summer-of-Code/dev-scope/stargazers)
-[![HSSoC Badge](https://img.shields.io/badge/HSSoC-2025-green.svg?style=flat-square)](#)
+<p align="center">
+  <img src="https://img.shields.io/github/license/HashSlap-Summer-of-Code/dev-scope?color=brightgreen&label=LICENSE&style=flat-square" />
+  <img src="https://img.shields.io/github/forks/HashSlap-Summer-of-Code/dev-scope?style=flat-square&color=gray" />
+  <img src="https://img.shields.io/github/stars/HashSlap-Summer-of-Code/dev-scope?style=flat-square&color=blue" />
+  <img src="https://img.shields.io/github/issues/HashSlap-Summer-of-Code/dev-scope?style=flat-square&color=green" />
+  <img src="https://img.shields.io/github/issues-pr/HashSlap-Summer-of-Code/dev-scope?style=flat-square&color=gold" />
+  <a href="https://dev-scope.netlify.app/">
+    <img src="https://img.shields.io/badge/Live-Demo-brightgreen?style=flat-square&logo=netlify" />
+  </a>
+</p>
+
 
 ### 🌐 Live: [dev-scope.netlify.app](https://dev-scope.netlify.app)
 
