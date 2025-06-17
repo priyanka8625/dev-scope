@@ -1,7 +1,7 @@
 const grid = document.getElementById('devGrid');
 const searchInput = document.getElementById('search');
 
-fetch('contributors.json')
+fetch('../contributors.json')
   .then(res => res.json())
   .then(usernames => {
     usernames.forEach(username => {
