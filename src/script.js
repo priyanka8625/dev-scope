@@ -4,16 +4,24 @@ const searchInput = document.getElementById('search');
 fetch('../contributors.json')
   .then(res => res.json())
   .then(usernames => {
+    console.log('Fetched usernames:', usernames);
     usernames.forEach(username => {
+      console.log('Fetching user data for:', username);
       fetch(`https://api.github.com/users/${username}`)
         .then(res => res.json())
         .then(user => {
-          if (!user || user.message === "Not Found") return;
+          console.log('User data for', username + ':', user);
+          if (!user || user.message === "Not Found") {
+            console.warn('User not found or invalid:', username);
+            return;
+          }
 
           // Now fetch user's repositories to get top languages
+          console.log('Fetching repos for:', username);
           fetch(user.repos_url)
             .then(res => res.json())
             .then(repos => {
+              console.log('Repos data for', username + ':', repos);
               const langCount = {};
 
               repos.forEach(repo => {
@@ -38,10 +46,11 @@ fetch('../contributors.json')
                 <a href="${user.html_url}" target="_blank">View GitHub</a>
               `;
               grid.appendChild(card);
+              console.log('Card appended for:', username);
             })
-            .catch(err => console.error('Error fetching repos for', username, err));
+            .catch(err => console.error('Error fetching repos for', username + ':', err));
         })
-        .catch(err => console.error('Failed to load user:', username, err));
+        .catch(err => console.error('Failed to load user for', username + ':', err));
     });
   })
   .catch(err => console.error('Error loading contributors.json:', err));
