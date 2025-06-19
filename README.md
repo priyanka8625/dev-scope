@@ -34,27 +34,26 @@
 
 ---
 
-## Getting Started
+## 🚀 Getting Started
 
-### Prerequisites
-- Node.js (v14 or later)
-- npm or npx
+To preview the project locally, you don't need to install Node.js or use any build tools.
 
-### Installation
-1. **Clone** the repository:
-   ```bash
-   git clone https://github.com/your-username/dev-scope.git
-   cd dev-scope
-   ```
+### 🔹 Option 1: Use Live Server (Recommended for Beginners)
 
-### Running the Development Server
-1. **Start the server**:
-   ```bash
-   npx http-server 
-   ```
+💡 If you're using VS Code or a similar editor, install the **Live Server** extension to quickly view the site in your browser:
 
-2. **Open your browser** and navigate to:
-   - [http://127.0.0.1:8080/src/index.html](http://127.0.0.1:8080/src/index.html)
+1. Install the [Live Server extension](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) in VS Code.
+2. Open the project folder in your editor.
+3. Right-click on `index.html` and choose **"Open with Live Server"**.
+
+Your browser will automatically open the site and refresh on changes.
+
+---
+
+### 🔹 Option 2: Open Manually
+
+You can also open the `index.html` file directly in your browser without any extensions.
+
 
 ### Troubleshooting
 - Ensure no other processes are using port 8080
